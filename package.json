@@ -1,0 +1,26 @@
+{
+  "name": "restful_api_project",
+  "version": "1.0.0",
+  "description": "Mi primera aplicación NodeJs para el backend del proyecto",
+  "main": "index.js",
+  "scripts": {
+    "dev": "nodemon server.js",
+    "dev2": "node server.js",
+    "createdb": "npx sequelize db:create"
+  },
+  "keywords": [],
+  "author": "Julian Salazar",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.20.2",
+    "express": "^4.18.2",
+    "morgan": "^1.10.0",
+    "mysql2": "^3.6.0",
+    "sequelize": "^6.32.1",
+    "sequelize-cli": "^6.6.1"
+  },
+  "devDependencies": {
+    "dotenv": "^16.3.1",
+    "nodemon": "^3.0.1"
+  }
+}
